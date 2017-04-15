@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="diaryModelStoreContainer" CdmEntityContainer="diaryEntities">
+    <EntitySetMapping Name="diary">
+      <EntityTypeMapping TypeName="diaryModel.diary">
+        <MappingFragment StoreEntitySet="diary">
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="key" ColumnName="key" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="weekday" ColumnName="weekday" />
+          <ScalarProperty Name="weather" ColumnName="weather" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="CJTime" ColumnName="CJTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
