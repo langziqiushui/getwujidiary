@@ -21,3 +21,5 @@ go
 select * from diary order by createDate desc
 
 --delete diary 
+
+print datediff(day,'2016-09-18','2017-06-24')
